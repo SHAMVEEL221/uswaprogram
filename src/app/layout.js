@@ -12,8 +12,8 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata = {
-  title: "Samastha Centenary - Volunteer Registration",
-  description: "Celebrating 100 years of service, education, and community impact",
+  title: "Vaakku Kathi",
+  description: "Vaakku Kathi Memmber",
   icons: {
     icon: [
       {
