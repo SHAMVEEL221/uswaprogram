@@ -285,10 +285,11 @@ export default function Home() {
                   </span>
                 </h1>
 
-                <div className="bg-white/10 rounded-xl sm:rounded-2xl p-3 sm:p-4 mb-5 sm:mb-6 backdrop-blur-sm">
+                <div className="bg-white/50 rounded-xl sm:rounded-2xl p-3 sm:p-4 mb-5 sm:mb-6 backdrop-blur-sm">
                   <img
                     src="/logo.png"
                     alt="Samastha Centenary"
+                    draggable="false"
                     className="w-full h-32 sm:h-40 lg:h-48 object-contain"
                   />
                 </div>
@@ -480,8 +481,9 @@ function InputMobile({ icon, label, disabled, ...props }) {
           disabled={disabled}
           className={`w-full pl-9 sm:pl-12 pr-3 sm:pr-4 py-2.5 sm:py-3.5 rounded-lg sm:rounded-xl border transition-all duration-300 text-sm sm:text-base ${
             disabled 
-              ? 'border-gray-100 bg-gray-50 cursor-not-allowed text-gray-500' 
-              : 'border-gray-200 focus:border-blue-400 focus:ring-2 sm:focus:ring-4 focus:ring-blue-100'
+            ? 'border-gray-200 bg-white text-gray-800 opacity-60 cursor-not-allowed' 
+            : 'border-gray-200 bg-white text-gray-800 focus:border-blue-400 focus:ring-2 sm:focus:ring-4 focus:ring-blue-100'
+          
           }`}
         />
       </div>
