@@ -220,7 +220,7 @@ export default function Home() {
                         Congratulations! 🎉
                       </h2>
                       <p className="text-gray-600 text-sm sm:text-base">
-                        Successfully registered as a volunteer
+                        Successfully registered as a Memmber
                       </p>
                     </div>
 
@@ -236,7 +236,7 @@ export default function Home() {
                           icon={<FaUserGraduate className="text-blue-500" />}
                         />
                         <DetailItemMobile 
-                          label="Class & Section" 
+                          label="Class" 
                           value={formData.class} 
                           icon={<FaChalkboardTeacher className="text-purple-500" />}
                         />
