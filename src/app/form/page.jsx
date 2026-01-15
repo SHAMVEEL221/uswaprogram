@@ -281,7 +281,7 @@ export default function Home() {
                 <h1 className="text-2xl sm:text-3xl md:text-4xl lg:text-5xl font-bold mb-4 sm:mb-6 leading-tight">
                   Join Us as a <br />
                   <span className="bg-gradient-to-r from-yellow-300 via-pink-300 to-orange-300 bg-clip-text text-transparent">
-                    Volunteer
+                  Member
                   </span>
                 </h1>
 
@@ -295,10 +295,10 @@ export default function Home() {
 
                 <div className="bg-white/10 backdrop-blur-md rounded-xl sm:rounded-2xl p-4 sm:p-6 border border-white/20">
                   <h3 className="text-lg sm:text-xl font-bold mb-2 sm:mb-3">
-                    ⭐ About Samastha Centenary
+                    ⭐ About Vaakku Kathi 
                   </h3>
                   <p className="text-blue-100 leading-relaxed text-xs sm:text-sm md:text-base">
-                    Celebrating 100 years of service, education, and community
+                    Celebrating Vaakku Kathi of service, education, and community
                     impact. Join us in honoring our legacy and shaping the
                     future.
                   </p>
@@ -346,11 +346,11 @@ export default function Home() {
 
                   <InputMobile
                     icon={<FaChalkboardTeacher />}
-                    label="Class & Section"
+                    label="Class"
                     name="class"
                     value={formData.class}
                     onChange={handleChange}
-                    placeholder="12th Grade - B"
+                    placeholder="12th"
                     disabled={showSuccessBox}
                   />
 
@@ -366,7 +366,7 @@ export default function Home() {
 
                   <div>
                     <label className="font-bold text-xs sm:text-sm block mb-1.5 sm:mb-2">
-                      Student Photograph
+                      Student Photo
                     </label>
                     <div className={`file-input-wrapper ${showSuccessBox ? 'opacity-50' : ''}`}>
                       <input
